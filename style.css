@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+.main-page {
+    height: 18vh;
+}
+
+.main-page nav {
+    padding: 40px 30px;
+}
+
+.main-page nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.main-page nav ul .left {
+    display: flex;
+    align-items: center;
+}
+
+.main-page nav ul .left .logo {
+    margin-right: 60px;
+}
+
+.main-page nav ul .right {
+    display: flex;
+}
+
+.main-page nav ul .left .buttons {
+    margin-inline: 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.main-page nav ul .left .buttons img {
+    margin-left: 5px;
+}
+
+.main-page nav ul .right .butt {
+    margin-inline: 30px;
+    font-weight: 500;
+}
+
+.butn {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.butn:hover {
+    color: grey
+}
+
+.main-page-down nav {
+    padding: 40px 30px;
+}
+
+.main-page-down nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.main-page-down nav ul .leftdown {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.main-page-down nav ul .leftdown img {
+    margin-left: 50px;
+    align-items: center;
+}
+
+.learn {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.learn:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.work {
+    height: 60vh;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 63px;
+}
+
+
+p {
+    color: grey;
+
+}
+
+.onclick {
+    height: 44vh;
+}
+
+.syncTeam {
+    height: 30vh;
+    margin-top: 85px;
+}
+
+.alltext {
+    height: 56vh;
+    max-width: 74vh;
+}
+
+.wrapper {
+    width: 83%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.rightPic {
+    width: 50%;
+    height: 100%;
+
+}
+
+.rightPic img {
+    width: 80%;
+    height: 100%;
+    margin-inline: 240px;
+}
+
+.footer {
+    list-style: none;
+
+    display: flex;
+
+}
+
+.Tsyn {
+    max-width: 374px;
+}
+
+.svos {
+    margin-inline: 25px;
+}
+
+.feature-blog {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    width: 150px;
+    padding: 10px 5px;
+    padding-left: 20px;
+    position: absolute;
+    top: 75px;
+    left: 163px;
+}
+
+
+.feature-blog p {
+    color: black;
+    margin: 10px 0;
+}
+
+.feature-blog img {
+    margin-right: 5px;
+}
+
+.company-blog {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    width: 100px;
+    padding: 10px 10px;
+    padding-left: 10px;
+    height: 120px;
+    position: absolute;
+    top: 75px;
+    left: 338px;
+}
+
+
+.company-blog p {
+    color: black;
+    margin: 10px 0;
+}
+
+.display-none {
+    display: none;
+}
